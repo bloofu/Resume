@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Qwitcher+Grypen&display=swap');
+/* font-family: 'Mukta', sans-serif;
+font-family: 'Qwitcher Grypen', cursive; */
+
+body{
+    font-family: 'Mukta', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.1em;
+    letter-spacing: 0.3px;
+    background: rgba(220, 36, 46, .2);
+    color: #0f141e;
+}
+body p{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 40px;
+    line-height: 0.2em;
+    letter-spacing: 4px;
+}
+body h1,h2{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+.container{
+    width: 750px;
+    margin: auto;
+}
+.card{
+    margin-top: 10px;
+    height: 100%;
+    background: rgb(120, 198, 117);
+    color: rgba(255, 255, 255, 0.687);
+    border-radius: 20px;
+    padding: 1px 10px;
+    opacity: 0.9;
+}
+.links{
+    text-align: center;
+
+}
+.links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 15px;
+    transition: all 0.2s;
+    color: inherit;
+}
+.links a:first-child{
+    margin: 0 15px 0 0;
+}
+.links a:last-child{
+    margin: 0 0 0 15px;
+}
+.about_me{
+    padding-left: 50px;
+    margin: 45px 0;
+}
+.btn{
+    transition: all 0.2s;
+    border-radius: 20px;
+    border: 0;
+    padding: 3px 10px;
+}
+.btn:hover{
+    color: rgba(105, 215, 226, 1);
+    font-size: 1.5rem;
+}
